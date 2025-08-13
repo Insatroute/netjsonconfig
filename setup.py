@@ -36,7 +36,6 @@ def get_install_requires():
             line.startswith("#")
             or line == ""
             or line.startswith("http")
-            or line.startswith("git")
         ):
             continue
         # add line to requirements
@@ -59,7 +58,7 @@ setup(
     author_email="support@openwisp.io",
     license="GPL3",
     url="http://netjsonconfig.openwisp.org",
-    download_url="https://github.com/openwisp/netjsonconfig/releases",
+    #download_url="https://github.com/openwisp/netjsonconfig/releases",
     keywords=["openwrt", "openwisp", "netjson", "networking"],
     packages=find_packages(exclude=["tests*", "docs*"]),
     include_package_data=True,
