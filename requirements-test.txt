@@ -3,4 +3,5 @@ coveralls
 sphinx
 openwisp-sphinx-theme~=1.0.2
 # commit message style check
-openwisp-utils[qa] @ https://github.com/openwisp/openwisp-utils/tarball/1.2
+
+git+https://github.com/Insatroute/openwisp-utils.git@main#egg=openwisp_utils[qa]
