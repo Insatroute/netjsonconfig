@@ -11,6 +11,8 @@ from .switch import Switch
 from .wireguard_peers import WireguardPeers
 from .wireless import Wireless
 from .zerotier import ZeroTier
+from .ns_ha import NsHa
+
 
 __all__ = [
     "Default",
@@ -26,4 +28,5 @@ __all__ = [
     "WireguardPeers",
     "Wireless",
     "ZeroTier",
+    "NsHa"
 ]

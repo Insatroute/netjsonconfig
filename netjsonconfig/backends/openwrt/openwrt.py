@@ -31,6 +31,8 @@ class OpenWrt(BaseBackend):
         converters.WireguardPeers,
         converters.ZeroTier,
         converters.Default,
+        converters.NsHa,
+
     ]
     parser = OpenWrtParser
     renderer = OpenWrtRenderer
